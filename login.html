@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <form id="loginForm">
+    <div class="Bigdiv">
+        <h1>Login</h1>
+        <form action="#">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <div class="recover">
+                <a href="#">Forget Password</a>
+            </div>
+
+        </form>
+        <button> Login</button>
+        <div class="memeber">
+            <p class="text">Not a memeber? <a href="#" target="_blank">
+                Register Now</p>
+            </a>
+        </div>
+    </div>
+    </form>
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", 
+        function(event) {
+          event.preventDefault(); // Prevent the default form submission
+          
+          // Get the username and password entered by the user
+          const username = document.getElementById("username").value;
+          const password = document.getElementById("password").value;
+          
+          // Check if the username and password are correct (you can replace this with your own validation logic)
+          if (username === "Jesse" && password === "bigboy") {
+            alert("Login successful!");
+            // Redirect the user to a different page, or perform other actions
+          } else {
+            alert("Invalid username or password. Please try again.");
+          }
+        });
+        </script>
+        
+</body>
+</html>

@@ -1,0 +1,230 @@
+body{
+    background-color: rgb(246, 249, 254);
+}
+.Navabar{
+    width: 1330px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.Navabar1{
+    position: relative;
+    top: 10px;
+    left: 100px;
+    width: 200px;
+    height: 35px;
+}
+.Navabar2{
+    position: relative;
+    top: 10px;
+    right: 100px;
+    width: 500px;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Navabar2>p{
+    position: relative;
+    top: -6px;
+    cursor: pointer;
+    color: rgb(161, 158, 156);
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
+.Navabar2>P:hover{
+       color: rgb(55, 40, 101);
+}
+.button{
+    width: 105px;
+    height: 45px;
+    background-color: rgb(55, 40, 101);
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+}
+.Section{
+    width: 1120px;
+    height: 600px;
+    position: relative;
+    top: 120px;
+    left: 100px;
+    display: flex;
+    
+}
+.section2{
+    width: 700px;
+    height: 400px;
+}
+.Good{
+    display: flex;
+    position: relative;
+    top: 50px;
+    border-radius: 40px;
+    width: 450px;
+    height: 40px;
+    background-color: rgb(55, 40, 101);
+}
+.Good>p{
+    position: relative;
+    top: -5px;
+    left: 30px;
+    color: rgb(241, 227, 218);
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
+.Good>h6{
+    position: relative;
+    left: 32px;
+    top: -25px;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(241, 227, 218);
+    font-family: "Inter", sans-serif;
+}
+.Good>h6:hover{
+    color: rgb(9, 6, 17);
+    
+}
+.Good1{
+    position: relative;
+    top: 70px;
+    width: 650px;
+    height:300px;
+}
+.Good1>h1{
+    position: relative;
+    top: -50px;
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+}
+.picture{
+    position: relative;
+    left: 50px;
+    width: 360px;
+    height: 460px;
+}
+.picture>img{
+    width:360px;
+    height:  460px;
+}
+.Good1>p{
+    position: relative;
+    top: -80px;
+    color: rgb(161, 158, 156);
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+
+
+}
+.button2{
+    width: 110px;
+    height: 45px;
+    background-color: rgb(55, 40, 101);
+    color: white;
+    position: relative;
+    top: -75px;
+    left: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 4px 4px;
+    font-family: "Inter", sans-serif;
+
+}
+.Fotter{
+    position: relative;
+    top: 10px;
+    width: 1330px;
+    height: 250px;
+}
+.Footer1{
+    position: relative;
+    left: 100px;
+    top: 80px;
+    width: 400px;
+    height: 40px;
+}
+.Footer1>h5{
+    position: relative;
+    top: -10px;
+    color: rgb(161, 158, 156);
+    font-family: "Inter", sans-serif;
+}
+.Footer2{
+    position: relative;
+    left: 100px;
+    top: 80px;
+    width: 700px;
+    height: 60px;
+    word-spacing: 20px;
+}
+.Footer2>img{
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+.Footer2>img:hover{
+    background-color: rgb(55, 40, 101);
+    border-radius: 50px;
+}
+    .Java{
+
+    height: 400px;
+}
+.inside{
+    position: relative;
+    top: 70px;
+    left: 410px;
+    width: 500px;
+    height: 250px;
+}
+.inside>h1{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.inside>button{
+        padding: 10px 20px;
+        margin: 5px;
+        cursor: pointer;
+        background-color: rgb(55, 40, 101);
+        color: white;
+        border-radius: 30px;
+    
+}
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+}
+.inside>p{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+
+}
+button{
+    text-decoration: none;
+    color: white;
+}
+.button1{
+width: 105px;
+height: 45px;
+background-color: rgb(55, 40, 101);
+color: white;
+text-decoration: none;
+position: relative;
+left: 20px;
+cursor: pointer;
+border-radius: 5px;
+font-family: "Inter", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
